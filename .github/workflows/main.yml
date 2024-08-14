@@ -35,8 +35,8 @@ jobs:
           sudo apt-get install libvlccore-dev
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
-          haxelib --always install lime 
-          haxelib install openfl 8.1.1
+          haxelib install lime
+          haxelib install openfl
           haxelib --never install flixel
           haxelib run lime setup flixel
           haxelib run lime setup
@@ -46,7 +46,6 @@ jobs:
           haxelib install tjson
           haxelib install hxjsonast
           haxelib install hxCodec
-          haxelib --always set lime 8.0.1
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
           haxelib install hscript
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
@@ -77,7 +76,7 @@ jobs:
         run: |
           haxelib setup C:/haxelib
           haxelib install hxcpp > nul
-          haxelib install lime 8.1.1
+          haxelib install lime
           haxelib install openfl
           haxelib --never install flixel
           haxelib run lime setup flixel
@@ -88,7 +87,6 @@ jobs:
           haxelib install tjson
           haxelib install hxjsonast
           haxelib install hxCodec
-          haxelib --always set lime 8.0.1
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
           haxelib install hscript
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
@@ -120,7 +118,7 @@ jobs:
         run: |
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
-          haxelib install lime 8.1.1
+          haxelib install lime
           haxelib install openfl
           haxelib --never install flixel
           haxelib run lime setup flixel
@@ -131,7 +129,6 @@ jobs:
           haxelib install tjson
           haxelib install hxjsonast
           haxelib install hxCodec
-          haxelib --always set lime 8.0.1
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit
           haxelib install hscript
           haxelib git hscript-ex https://github.com/ianharrigan/hscript-ex
